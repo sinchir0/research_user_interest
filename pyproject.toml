@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "research_user_interest"
+version = "1.0.0"
+description = "research user interest"
+authors = ["sinchir0"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.6"
+gokart = "*"
+wget = "^3.2"
+ipdb = "^0.13.9"
+SudachiPy = "^0.6.0"
+SudachiDict-core = "^20210802.post1"
+neologdn = "^0.5.1"
+gensim = "^4.1.2"
+sklearn = "^0.0"
+annoy = "^1.17.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+black = "^21.11b1"
+
+[build-system]
+requires = ["poetry"]
+build-backend = "poetry.masonry.api"
