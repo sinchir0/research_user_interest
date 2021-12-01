@@ -6,7 +6,8 @@ research user interest
 # Run
 
 ```
-python main.py research_user_interest.Sample --local-scheduler
+poetry install
+python main.py research_user_interest.GetSimilarArticleByAnnoyTask --local-scheduler
 ```
 
 # Test
