@@ -7,7 +7,12 @@ research user interest
 
 ```
 poetry install
-poetry run python main.py research_user_interest.GetSimilarArticleByAnnoyTask --local-scheduler
+
+# 名詞の場合
+poetry run python main.py research_user_interest.RunAnnoyByNounTask --local-scheduler
+
+# 固有名詞の場合
+poetry run python main.py research_user_interest.RunAnnoyByNamedEntityTask --local-scheduler
 ```
 
 # Test
