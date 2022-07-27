@@ -7,7 +7,7 @@ research user interest
 
 ```
 poetry install
-python main.py research_user_interest.GetSimilarArticleByAnnoyTask --local-scheduler
+poetry run python main.py research_user_interest.GetSimilarArticleByAnnoyTask --local-scheduler
 ```
 
 # Test
@@ -21,6 +21,6 @@ python -m unittest discover -s ./test/unit_test/
 
 ```
 poetry lock
-docker build
+docker build .
 docker run
 ```

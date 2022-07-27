@@ -98,14 +98,14 @@ uvloop = ["uvloop (>=0.15.2)"]
 
 [[package]]
 name = "boto3"
-version = "1.24.34"
+version = "1.24.38"
 description = "The AWS SDK for Python"
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-botocore = ">=1.27.34,<1.28.0"
+botocore = ">=1.27.38,<1.28.0"
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.6.0,<0.7.0"
 
@@ -114,7 +114,7 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-version = "1.27.34"
+version = "1.27.38"
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -214,7 +214,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "executing"
-version = "0.8.3"
+version = "0.9.1"
 description = "Get the currently executing AST node of a frame, and other information"
 category = "main"
 optional = false
@@ -276,11 +276,11 @@ test-win = ["pytest", "pytest-cov", "mock", "cython", "testfixtures", "pyemd", "
 
 [[package]]
 name = "gokart"
-version = "1.0.7"
+version = "1.1.3"
 description = "Gokart solves reproducibility, task dependencies, constraints of good code, and ease of use for Machine Learning Pipeline. [Documentation](https://gokart.readthedocs.io/en/latest/)"
 category = "main"
 optional = false
-python-versions = ">=3.7.1,<4.0.0"
+python-versions = ">=3.7.1,<3.11"
 
 [package.dependencies]
 APScheduler = "*"
@@ -692,7 +692,7 @@ wcwidth = "*"
 
 [[package]]
 name = "protobuf"
-version = "4.21.2"
+version = "4.21.4"
 description = ""
 category = "main"
 optional = false
@@ -956,7 +956,7 @@ scikit-learn = "*"
 
 [[package]]
 name = "slack-sdk"
-version = "3.18.0"
+version = "3.18.1"
 description = "The Slack API Platform SDK for Python"
 category = "main"
 optional = false
@@ -1012,7 +1012,7 @@ SudachiPy = ">=0.5,<0.7"
 
 [[package]]
 name = "sudachipy"
-version = "0.6.5"
+version = "0.6.6"
 description = "Python version of Sudachi, the Japanese Morphological Analyzer"
 category = "main"
 optional = false
@@ -1134,7 +1134,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "urllib3"
-version = "1.26.10"
+version = "1.26.11"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 category = "main"
 optional = false
@@ -1171,8 +1171,8 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.9.4"
-content-hash = "b7268a5074e639bc00c3a54d404fd1b24dd27c37eb4b365af8e0a22a164b2d82"
+python-versions = ">=3.9.4,<3.11"
+content-hash = "b85e6a78d61383e6f2619853cb2c3c9470b1c2d68920a85b076b72fbcafda39f"
 
 [metadata.files]
 annoy = [
@@ -1226,20 +1226,14 @@ deprecated = [
     {file = "Deprecated-1.2.13.tar.gz", hash = "sha256:43ac5335da90c31c24ba028af536a91d41d53f9e6901ddb021bcc572ce44e38d"},
 ]
 docutils = []
-executing = [
-    {file = "executing-0.8.3-py2.py3-none-any.whl", hash = "sha256:d1eef132db1b83649a3905ca6dd8897f71ac6f8cac79a7e58a1a09cf137546c9"},
-    {file = "executing-0.8.3.tar.gz", hash = "sha256:c6554e21c6b060590a6d3be4b82fb78f8f0194d809de5ea7df1c093763311501"},
-]
+executing = []
 flake8 = [
     {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
     {file = "flake8-4.0.1.tar.gz", hash = "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"},
 ]
 fonttools = []
 gensim = []
-gokart = [
-    {file = "gokart-1.0.7-py3-none-any.whl", hash = "sha256:80f6a960aeb1eb596e50f140d5cfbd76444be11da92446eef998ad4a580d1c0c"},
-    {file = "gokart-1.0.7.tar.gz", hash = "sha256:f2e6340e30dad0b4fe9519e2d0d668fae808771b501f44db42b0809cfbe5124a"},
-]
+gokart = []
 google-api-core = []
 google-api-python-client = []
 google-auth = []
